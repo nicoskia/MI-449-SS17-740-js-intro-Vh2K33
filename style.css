@@ -1,0 +1,12 @@
+body {
+  background: #dddeee;
+}
+
+button {
+  width: 70px;
+  height: 70px;
+  margin: 5px;
+  background: #f2f2f2;
+  border-radius: 20px;
+  outline: none;
+}
