@@ -1,46 +1,33 @@
-var boom = new Audio('sounds/boom.wav');
-var clap = new Audio("sounds/clap.wav");
-var hihat = new Audio("sounds/hihat.wav");
-var kick = new Audio("sounds/kick.wav");
-var openhat = new Audio("sounds/openhat.wav");
-var ride = new Audio("sounds/ride.wav");
-var snare = new Audio("sounds/snare.wav");
-var tink = new Audio("sounds/tink.wav");
-var tom = new Audio("sounds/tom.wav");
+var buttonHihat = document.getElementById('hihat');
+var buttonKick = document.getElementById('kick');
+var buttonSnare = document.getElementById('snare');
 
-function playBoom()
-  {
-    boom.play();
-  }
-function playClap()
-  {
-    clap.play();
-  }
-function playHihat()
-  {
-    hihat.play();
-  }
-function playKick()
-  {
-    kick.play();
-  }
-function playOpenhat()
-  {
-    openhat.play();
-  }
-function playRide()
-  {
-    ride.play();
-  }
-function playSnare()
-  {
-    snare.play();
-  }
-function playTink()
-  {
-    tink.play();
-  }
-function playTom()
-  {
-    tom.play();
-  }
+buttonHihat.addEventListener('click', function () {
+  var hihat = document.getElementById("wavHihat");
+  hihat.play();
+})
+
+buttonHihat.addEventListener('mouseenter', function () {
+  var hihat = document.getElementById("wavHihat");
+  hihat.play();
+})
+
+buttonKick.addEventListener('click', function () {
+  var kick = document.getElementById("wavKick");
+  kick.play();
+})
+
+buttonKick.addEventListener('mouseenter', function () {
+  var kick = document.getElementById("wavKick");
+  kick.play();
+})
+
+buttonSnare.addEventListener('click', function () {
+  var snare = document.getElementById("wavSnare");
+  snare.play();
+})
+
+buttonSnare.addEventListener('mouseenter', function () {
+  var snare = document.getElementById("wavSnare");
+  snare.play();
+})
